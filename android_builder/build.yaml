@@ -1,0 +1,31 @@
+名称：android_build
+
+在：
+  workflow_dispatch：
+
+招聘职位：
+  构建：
+    run-on： ubuntu-latest
+    步骤：
+      - 名称：签出代码
+        用途：动作/checkout@v2
+      - 名称：设置 JDK
+        用途：操作/设置java@v1
+        与：
+          java-version： 1.8
+      - id： 获取项目
+        名称：获取项目名称
+        run： echo “：：set-output name=PROJECT：：$（cat project-to-build）”
+      - 名称：克隆项目
+        run： git clone --depth=1 ${{ steps.get-project.outputs.PROJECT }} project
+      - 名称：构建应用
+        工作目录： ./项目
+        运行： |
+if [ ！ -f “gradlew” ];然后渐变包装;菲菲
+chmod +x gradlew
+./gradlew assembleDebug --stacktrace
+      - 名称： 上传 APK
+        用途：操作/上传artifact@v2
+        与：
+          名称： 我的构建-apk
+          路径： ./**/*.apk
