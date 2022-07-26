@@ -1,6 +1,6 @@
 // 配置地址 --> https://kaizs18.github.io/7.json
 {
-"spider":"https://kaizs18.github.io/7.jar",
+"spider":"https://kaizs18.github.io/kai/7.jar",
 
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L3R2L2JjLnR4dA=="]}]}],
 
