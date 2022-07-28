@@ -1,11 +1,9 @@
 // 配置地址 --> https://kaizs18.github.io/2.json
 {
 // spider
-"spider":"clan://TVBOX/7.jar",
+"spider":"https://kaizs18.github.io/0/7.jar",
 
 // 直播
-//clan://TVBOX/7.txt
-
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L3FqMDcxOC9saXZlLnR4dA=="]}]}],
 
 "sites":[
