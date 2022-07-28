@@ -2,10 +2,10 @@
 //  https://kaizs18.github.io/2.json
 {
 // spider
-"spider":"clan://localhost/TVBOX/7.jar",
+"spider":"clan://TVBOX/7.jar",
 
 // 直播
-//clan://TVBox/qj0718/live.txt
+//clan://TVBOX/7.txt
 
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L3FqMDcxOC9saXZlLnR4dA=="]}]}],
 
