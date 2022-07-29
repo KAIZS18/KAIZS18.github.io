@@ -4,7 +4,7 @@
 "spider":"https://e.coding.net/kaizs18/0/0.git/7.jar",
 
 // 直播
-// "https://kaizs18.github.io/0/bc.txt
+// "https://e.coding.net/kaizs18/0/0.git/bc.txt"
 
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L3FqMDcxOC9saXZlLnR4dA=="]}]}],
 
