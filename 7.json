@@ -58,5 +58,5 @@
     //手动嗅探视频链接关键字，每个用#隔开
     "VideoFormat":".m3u8?#ixigua#.czspp#.m3u8#mp4#.flv#.mp3#.m4a#item/video#is_play_url=1",
     //手动嗅探视频链接过滤关键词,每个用#隔开
-    "VideoFilter":".html#=http"#https://e.coding.net/kaizs18/0/0.git/0.jar
+    "VideoFilter":".html#=http"#https://e.coding.net/kaizs18/0.git/0.jar
 }
